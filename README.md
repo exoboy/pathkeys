@@ -2,7 +2,6 @@
 Simple getter and setter functions to allow using a single string, dot notation path for accessing multidimensional properties in PHP. E.g. "prop1.prop2.prop3"
 
 ```
-<?php
 /**
  * PATHKEYS v1.0
  * 
@@ -118,5 +117,4 @@ echo "EXAMPLE SET: for path \"bar.qux2.nestedKey\", changing value \"Nested valu
 echo "<pre>".print_r( $array, true )."</pre>";
 echo "--------------------------------------------<br /><br />END";
 
-?>
 ```
